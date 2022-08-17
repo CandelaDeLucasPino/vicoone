@@ -204,6 +204,10 @@ footer{
     font-size: 20px;
     text-align: center;
 }
+.boton a{
+    text-decoration: none;
+    color: #EDDCA0;
+}
 .datos{
     width: 288px;
     height: 76px;
@@ -220,7 +224,7 @@ footer{
 
 } 
 .logo1{
-    margin-top: 0px;
+    margin-top: 5%;
 }
 
 #wrapper-texto-showcase{
