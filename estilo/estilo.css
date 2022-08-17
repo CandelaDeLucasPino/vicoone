@@ -1,3 +1,6 @@
+
+
+
 .showcase {
     background: url(../imagenes/showcase.jpg) no-repeat center;
     background-size: cover;
@@ -25,8 +28,14 @@
   a.nav-link{
     font-family: 'Allerta', sans-serif;
     width: 110px;
-    font-weight: bold;
+    font-weight: 400;
+    height: 28px;
     color:#ffffff;
+    font-style: normal;
+    line-height: 16px;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    text-transform: capitalize;
 }
 
 .container-fluid{
@@ -37,16 +46,18 @@
 #wrapper-texto-showcase p{
     font-family: 'Allerta', sans-serif;    
     font-size: 36px;
+    width: 1047px;
+    height: 226px;
+    line-height: 36px;
     text-align: center;
-    line-height: 37px;
+    font-style: normal;
+    font-weight: 400;
     letter-spacing: 0.75px;
     color: #ffffff;
-    font-weight: bolder;
-    padding: 0 20% 10% 20%;
 }
 
 .boton{
-    font-family: 'Allerta', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 200px;
     height: 60px;
     color: #EDDCA0;
@@ -54,51 +65,82 @@
     border-radius: 20px;
     border-color: #354248;
     border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
 }
 .categories,.products{
     font-family: 'Allerta', sans-serif;
+    width: 384px;
+    height: 58px;
     color:#000000;
     text-align: center;
     font-size: 48px;
     letter-spacing: 0.75px;
     line-height: 36px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin:5% 0% 5% 480px;
     padding: 5% 0% 5% 0%;
     font-weight: 400;
 
 }
-.row.segundo{
-    margin: 30px;
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
 }
-.card-body h5{
+.card1{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 333px;
+    height: 554px;
+    background: rgba(217, 217, 217, 0.21);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.card1 h5{
+    width: 254px;
+    height: 58px;
     font-family: 'Allerta', sans-serif;
-    text-align: center;
+    font-style: normal;
+    font-weight: 400;
     font-size: 36px;
-    letter-spacing: 0.75px;
     line-height: 36px;
-    padding: 2%;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.card1 img{
+    width: 333px;
+    height: 437px;
+    border-radius: 24px;
+    justify-self: flex-end;
 }
 
-.img-fluid.one{
-    border-radius: 15px;
-}
-.volante{
-        margin-top: 20px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 .texto2{
         
         color:#ffffff;
         font-family: 'Roboto', sans-serif;
+        width: 1150px;
+        height: 90px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
         text-align: center;
-        font-size: 24px;        
-        line-height: 27.5px;
         letter-spacing: 1.25px;
         text-transform: uppercase;
-        width: 80%;
+        padding-top: 15px;
+
         
     
 }
@@ -131,12 +173,15 @@
 .card-title1{
     background-color: #ffffff;
     font-size: 20px;
-    width: 100%;
+    line-height: 26px;
+    width: 170px;
+    height: 75px;
     font-family: 'Allerta', sans-serif;
     color:black;
     text-align: center;
-    margin-top:10px;
-    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 400;
     border-top:solid 0.1em black;
     
 }
@@ -160,11 +205,18 @@ footer{
     text-align: center;
 }
 .datos{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 5px;
-    margin-top: 0px;
+    width: 288px;
+    height: 76px;
+    left: calc(50% - 288px/2 - 10px);
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+
 
 } 
 .logo1{
@@ -197,8 +249,4 @@ footer{
     border-radius: 15px;
 
 }
-hr {
-    border:1px solid black;
-    margin: auto 0% auto 0%;
-    width: 100%;
-  }
+
